@@ -53,7 +53,7 @@ document.querySelector('.start').addEventListener('click',function(e) {
         console.log(timeSpent)
         clearInterval(interval)
         interval = null
-        startstop.setAttribute('src','./circle-play-regular.png')
+        startstop.setAttribute('src','../Assets/circle-play-regular.png')
         status=false
 
          
@@ -78,12 +78,12 @@ document.querySelector('.reset').addEventListener('click',function(e) {
 
 document.querySelector('#src1').addEventListener('click',function(e) {
     console.log("clicked clock")
-    window.open("../Clock/index.html","_self")
+    window.open("../index.html","_self")
 })
 
 document.querySelector('#src2').addEventListener('click',function(e) {
     console.log("clicked stopwatch")
-    window.open("../StopWatch/index.html","_self")
+    window.open("./index.html","_self")
 })
 
 

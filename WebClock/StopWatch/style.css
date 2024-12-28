@@ -5,7 +5,7 @@
 }
 .main {
     height: 100vh;
-    background-image: url(./bgc.jpg);
+    background-image: url(../Assets/bgc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
