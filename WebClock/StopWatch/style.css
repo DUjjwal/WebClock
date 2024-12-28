@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main {
+    height: 100vh;
+    background-image: url(./bgc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: rgb(248, 248, 248);
+}
+.content {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 125px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.button {
+    height: 40%;
+}
+.button1 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 50px;
+    height: 80%;
+    /* border: 1px solid blue; */
+}
+.switch {
+    height: 20%;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.contain {
+    border: 1px solid white;
+    border-radius: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 8px;
+}
+.b1 {
+    width: 200px;
+}
+.b2 {
+    width: 250px;
+}
+#but {
+    margin: 0 20px;
+}
+
+#src1 {
+    margin-right: 5px;
+}
+#src2 {
+    margin-left: 5px;
+}
+
+
+
