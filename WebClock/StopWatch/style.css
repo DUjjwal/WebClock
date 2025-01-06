@@ -45,7 +45,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 8px;
+    padding: 4px 16px;
+    column-gap: 5px;
 }
 .b1 {
     width: 200px;
@@ -57,12 +58,6 @@
     margin: 0 20px;
 }
 
-#src1 {
-    margin-right: 5px;
-}
-#src2 {
-    margin-left: 5px;
-}
 
 
 

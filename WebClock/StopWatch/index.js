@@ -86,5 +86,10 @@ document.querySelector('#src2').addEventListener('click',function(e) {
     window.open("./index.html","_self")
 })
 
+document.querySelector('#src3').addEventListener('click',function(e) {
+    console.log("clicked stopwatch")
+    window.open("../Timer/index.html","_self")
+})
+
 
 

@@ -60,20 +60,15 @@
     justify-content: end;
     align-items: center;
 }
-#src1 {
-    margin-right: 5px;
-}
-#src2 {
-    margin-left: 5px;
-}
+
 
 .contain {
     border: 1px solid white;
     border-radius: 28px;
-    width: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 8px;
+    padding: 4px 16px;
+    column-gap: 5px;
 }
 
